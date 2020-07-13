@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/blue_relative_border" >
+
+        <TextView
+            android:id="@+id/SPLASH_TEXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="149dp"
+            android:text="CAPP"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Cyan"
+            android:textSize="64dp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/SignIn"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/SignUp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="21dp"
+            android:background="@drawable/ps__button_dropbox"
+            android:text="Sign In"
+            android:textColor="@color/Cyan"
+            android:textSize="14dp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/SignUp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/SignIn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/ps__button_dropbox"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp"
+            android:typeface="serif" />
+    </RelativeLayout>
+
+</RelativeLayout>

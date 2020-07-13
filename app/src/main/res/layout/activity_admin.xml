@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/blue_relative_border" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Astro12"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Cyan"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/SPLASH_TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="149dp"
+        android:text="Welcome to Admin!!"
+        android:textAppearance="?android:attr/textAppearanceSmallPopupMenu"
+        android:textColor="@color/Cyan"
+        android:textSize="23dp"
+        android:typeface="serif" />
+
+
+
+</RelativeLayout>
